@@ -125,3 +125,29 @@ if (idadeVisitante >= 18 && possuiCadastro && !bloqueado) {
 console.log("Informação");
 console.warn("Atenção");
 console.error("Erro");
+
+const cliente = "Marina";
+const valor = 600;
+const prioridadePedido = "alta";
+const pedidoAtrasado = true;
+
+const limiteDesconto = 500; // regra que EU escolhi
+let descontoPedido = 0;
+
+// Desconto de 10% se passar do limite
+if (valor > limiteDesconto) {
+    descontoPedido = valor * 10 / 100;
+}
+
+const valorPago = valor - descontoPedido;
+
+// Decide se precisa de atenção imediata
+let situacao = "Acompanhamento normal";
+if (prioridadePedido === "alta" && pedidoAtrasado) {
+    situacao = "ATENÇÃO IMEDIATA";
+}
+
+console.log(`Cliente: ${cliente}`);
+console.log(`Valor: R$ ${valor} | Desconto: R$ ${descontoPedido}`);
+console.log(`Total a pagar: R$ ${valorPago}`);
+console.log(`Situação: ${situacao}`);

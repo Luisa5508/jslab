@@ -1,0 +1,8 @@
+* [33m2d67534[m[33m ([m[1;32mfix/calculo-media[m[33m)[m feat: adiciona processamento de pedidos com funções
+* [33mf2c809b[m feat: adiciona classificação de temperatura
+* [33mc3ffd61[m feat: adiciona função de tabuada
+* [33mbf4ef66[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeat/funcoes[m[33m)[m feat: adiciona exemplos de repetição com for e while
+[31m|[m * [33m7858cfc[m[33m ([m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;32mfeat/fundamentos-js[m[33m)[m feat: adiciona analise de pedido com desconto
+[31m|[m * [33m995d83a[m feat:  adiciona variaveis, tipos e operadores
+[31m|[m[31m/[m  
+* [33m6154cc7[m feat: adiciona estrutura inicial html e js
